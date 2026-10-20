@@ -68,13 +68,20 @@ git submodule init
 git submodule update
 ```
 
-Wait for the datasets to download, it may take a while. Once they are downloaded, you need to install `pytest`, so that you can run the test suite:
+Wait for the datasets to download; it may take a while. The `requirements.txt` file includes `pytest` and TensorFlow, which is needed by the deep-learning tests. On Windows, create an isolated environment with a Python version tested by CI (for example, Python 3.12) and install the requirements:
 
-`pip install pytest`
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
 
-Then to run the tests:
+Run the complete test suite with:
 
-`py.test`
+```powershell
+.\.venv\Scripts\py.test.exe
+```
+
+On other platforms, run `py.test` from the environment where you installed `requirements.txt`.
 
 And you are good to go!
 

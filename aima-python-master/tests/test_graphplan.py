@@ -5,6 +5,10 @@ import pytest
 from aima.planning import *
 
 
+def run_planner_in_queue(problem, queue):
+    queue.put(Linearize(problem).execute())
+
+
 def test_blocksworld_manual():
     sbw = simple_blocks_world()
     assert sbw.goal_test() is False
@@ -153,9 +157,6 @@ def test_rush_hour_optimized():
 
 
 def test_planner_leveloff():
-    def run_planner_in_queue(problem, queue):
-        queue.put(Linearize(problem).execute())
-
     p = blocks_world(
         'On(A, Table) & On(B, Table) & On(C, Table) & Clear(A) & Clear(B) & Clear(C)',
         'On(A, B) & On(B, C) & On(C, A)',

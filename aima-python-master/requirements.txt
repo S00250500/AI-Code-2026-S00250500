@@ -5,6 +5,7 @@ ipythonblocks
 ipywidgets
 jupyter
 keras
+tensorflow
 matplotlib
 networkx
 numpy
