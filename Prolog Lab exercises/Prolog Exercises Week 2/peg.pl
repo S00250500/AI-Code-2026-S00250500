@@ -2,7 +2,7 @@
 peg(p2, square).
 peg(p1, round).
 
-%Ho;e facts: hole(HoleName, Shape)
+%Hole facts: hole(HoleName, Shape)
 hole(h1, round).
 hole(h2, square).
 hole(h3, round).
