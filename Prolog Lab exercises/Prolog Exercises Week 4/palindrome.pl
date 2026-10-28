@@ -6,14 +6,12 @@ palindrome([]).
 % Base case 2: a list with one item is a palindrome.
 palindrome([_]).
 
-% Recursive case: the first and last items must match,
-% and the items between them must also form a palindrome.
+% Recursive case: remove the first and last items,
+% check that they match, then check the middle list.
 palindrome(List) :-
-    List = [First|_],
-    append(Middle, [Last], List),
+    append([First|Middle], [Last], List),
     First = Last,
     palindrome(Middle).
-
 
 % Example queries
 % ?- palindrome([c,i,v,i,c]).
