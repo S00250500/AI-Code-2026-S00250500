@@ -23,7 +23,7 @@ adjacent([Row, Column, Content], Squares) :-
              square(NextRow, NextColumn, NeighbourContent)),
             Squares).
 
-% The order of these rules gives: above, left, right, below.
+% The order of these rules above, left, right, below.
 neighbour(Row, Column, NextRow, Column) :-
     NextRow is Row - 1,
     NextRow >= 1.
