@@ -1,0 +1,15 @@
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\bin\Debug\net10.0\Week 5 Graph Exercise.exe
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\bin\Debug\net10.0\Week 5 Graph Exercise.deps.json
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\bin\Debug\net10.0\Week 5 Graph Exercise.runtimeconfig.json
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\bin\Debug\net10.0\Week 5 Graph Exercise.dll
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\bin\Debug\net10.0\Week 5 Graph Exercise.pdb
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.AssemblyInfoInputs.cache
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.AssemblyInfo.cs
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.sourcelink.json
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.dll
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\refint\Week 5 Graph Exercise.dll
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.pdb
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\Week 5 Graph Exercise.genruntimeconfig.cache
+C:\Users\Elain\source\repos\AI-Code-2026-S00250500\C# Project code\Week 5 Graph Exercise\obj\Debug\net10.0\ref\Week 5 Graph Exercise.dll
