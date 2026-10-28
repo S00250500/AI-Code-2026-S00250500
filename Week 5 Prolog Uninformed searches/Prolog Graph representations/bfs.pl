@@ -1,4 +1,3 @@
-% Week 5 graph: breadth-first search.
 % Solution paths are returned in reverse order: [Goal, ..., Start].
 
 solve(Start, Solution) :-
