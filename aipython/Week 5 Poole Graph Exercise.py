@@ -3,24 +3,27 @@ import inspect
 from searchProblem import Arc, Search_problem_from_explicit_graph
 from searchGeneric import Searcher
 
-nodes = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'X'}
 
-# Edge costs are copied from the worksheet.
-# Searcher is depth-first by default. Its frontier is a stack, so the last
-# successor added is explored first. With this arc order it explores C before B,
-# then X before D, reaching G by A -> C -> X -> G.
+nodes = {'A', 'B', 'C', 'D', 'E', 'f', 'G', 'X'}
+
 arcs = [
-    Arc('A', 'B', 2),
+    # Put A -> C first so DFS explores this branch first.
     Arc('A', 'C', 1),
+    Arc('A', 'B', 2),
+
+    # B's branch
     Arc('B', 'E', 4),
-    Arc('B', 'F', 4),
-    Arc('E', 'A', 6),  # Back edge creates the loop E -> A.
-    Arc('F', 'G', 1),
+    Arc('B', 'f', 4),
+    Arc('E', 'A', 6),  # The cycle from E back to A
+    Arc('f', 'G', 1),
+
+    # C's branch
     Arc('C', 'D', 6),
     Arc('C', 'X', 4),
     Arc('D', 'G', 4),
     Arc('X', 'G', 5),
 ]
+
 
 # AIPython releases differ: newer versions take a graph name as the first
 # argument, while some earlier course releases do not.
